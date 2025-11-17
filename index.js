@@ -111,7 +111,7 @@ function gameContinue(){
     startBut.style.display = 'none'
     yesGameBut.style.display = 'none'
     noGameBut.textContent = 'End Game'
-    if(sumAll>=10){
+    if(sumAll>=8){
         Congratulations.textContent = 'Congratulations, you won the game'
     }else{
        Congratulations.textContent = 'Try, again later!' 

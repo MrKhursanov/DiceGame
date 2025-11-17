@@ -1,0 +1,38 @@
+*{
+    padding: 0;margin: 0;
+}
+
+.diceGame h1{
+    color: goldenrod;
+}
+.diceGame{
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding:20px;
+    margin: 20px;
+    background-image: url('./images/image.png');
+    color: aliceblue;
+
+}
+
+.diceGame button{
+    width: 100px;
+    cursor: pointer;
+    background-color: goldenrod;
+    color: rgb(5, 85, 5);
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.diceGame p{
+    color:red;
+}
